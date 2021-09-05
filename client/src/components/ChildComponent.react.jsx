@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 
 const ChildComponent = (props) => {
     return (
@@ -6,4 +6,4 @@ const ChildComponent = (props) => {
     )
 }
 
-module.exports = ChildComponent;
+export default ChildComponent;
