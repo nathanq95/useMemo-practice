@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "DATABASE=habits_dev PORT=3000 node ./server/index.js",
+    "start:dev": "PORT=3000 node ./server/index.js",
     "build:dev": "webpack --mode=development"
   },
   "author": "",
